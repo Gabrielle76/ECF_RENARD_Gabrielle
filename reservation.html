@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Réservation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="nav_wrapper">
+               <div><a href="index.php">Accueil</a></div>
+                <div><a href="carte.html">Carte</a></div>
+                <div><a href="reservation.html">Réservation</a></div>
+                <div><a href="contact_localisation.html">Contact</a></div>
+                <div><a href="Page_connexion.php">Connexion</a></div>
+              </div>
+        </header>
+            <h1>Réservez votre table</h1>
+            <div class = "card-container">
+                    <h2> Veuillez saisir une date de réservation (notez que nous sommes fermé le lundi, merci de votre compréhension)</h2>
+                    <form>
+                        <div class="nativeDatePicker">
+                          <input type="date" id="day" name="day"
+                          min="2023-01-01" max="2023-12-31"required>
+                          <span class="validity"></span>
+                        </div>
+                      </form>
+                    <select name = "hours">
+                        <option value = "hour-select">Choisir une heure de rendez-vous (heures d'ouverture 11:30 à 15:00 et de 19:00 à 21:30)</option>
+                        <option value = "10">11: 30</option>
+                        <option value = "10">11: 45</option>
+                        <option value = "10">12: 00</option>
+                        <option value = "10">12: 15</option>                                
+                        <option value = "10">12: 30</option>
+                        <option value = "10">12: 45</option>
+                        <option value = "10">13: 00</option>
+                        <option value = "10">13: 15</option>
+                        <option value = "10">13: 30</option>
+                        <option value = "10">13: 45</option>
+                        <option value = "10">19: 00</option>
+                        <option value = "10">19: 15</option>
+                        <option value = "10">19: 30</option>
+                        <option value = "10">19: 45</option>
+                        <option value = "10">20: 00</option>
+                        <option value = "10">20: 15</option>
+                        <option value = "10">20: 30</option>
+                    </select>
+                        <input type = "text" placeholder="Nom Prénom">
+                        <input type = "text" placeholder="Téléphone">
+                        <input type = "number" placeholder="Pour combien de personnes souhaitez-vous réserver" min = "1", max = "15">
+                        <input type = "text" placeholder="Commentaires">
+                        <form class="allergy">
+                          <fieldset>
+                          <legend>Avez-vous des allergies? (lesquelles?)</legend>
+                            <div>
+                              <input type="checkbox" id="Eggs" name="allergy" value="Eggs">
+                              <label for="Eggs">Oeuf</label>
+                            </div>
+                            <div>
+                              <input type="checkbox" id="milk" name="allergy" value="milk">
+                              <label for="milk">Lait</label>
+                            </div>
+                            <div>
+                              <input type="checkbox" id="fish" name="allergy" value="fish">
+                              <label for="fish">Poissons et crustacés</label>
+                            </div>
+                            <div>
+                              <input type="checkbox" id="nuts" name="allergy" value="nuts">
+                              <label for="nuts">Noix et fruits à coques</label>
+                            </div>
+                            <div>
+                              <input type="checkbox" id="gluten" name="allergy" value="gluten">
+                              <label for="gluten">Gluten</label>
+                            </div>
+                            <div>
+                              <input type="checkbox" id="other" name="interest" value="other">
+                              <label for="other">Autre</label>
+                              <input type="text" id="otherValue" name="other">
+                            </div>
+                          </fieldset>
+                        </form>
+                      </div> 
+                        <input type = "submit" value = "Réservez une table">
+            </div>
+      <footer>
+          <div class="footer">
+              <span>2023 Le Quai Antique</span>
+                <a href="/mentionslegales">mentions légales</a>
+                <div class="contact"><span>Mardi au Dimanche : 11:30 à 15:00 - 19:00 à 21h30</span>
+                <span><a href="02.34.56.78.90"> contact :02.34.56.78.90</a></span>
+                </div>
+          </div>
+      </footer>
+    </body>
+</html>

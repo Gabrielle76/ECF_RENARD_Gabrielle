@@ -1,0 +1,163 @@
+
+/*Reservation forms*/
+.nav_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    min-height: 15vh;
+    justify-content: center;
+    padding-top: 5px;  
+    text-decoration: underline overline;
+}
+.banner{
+    min-height: 100px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255,255);
+    padding-bottom: 20px;
+}
+.allergy{
+    background-color: rgba(255,255,255);
+}
+.card-container{
+    display: grid;
+    grid-template-columns: auto;
+    border:1px solid, rgba(11,9,10)
+}
+/*Calendar for reservation form*/
+.nativeDatePicker{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+/*Table for the menu*/
+.tb_model{
+    border: 1px solid, rgba(11,9,10);
+    grid-auto-columns:auto;
+    align-content: center;
+    }
+    thead,
+    tfoot {
+        background-color:rgba(186,24, 27);
+        color:rgba(245,243,244);
+} 
+ /*Menu style*/
+.title{
+    background-color:rgba(255,255,255);
+    color:rgba(11,9,10);
+}
+.title-bis{
+    background-color:rgba(255,255,255);
+    color:rgba(102,7,8);
+    text-align: center;
+    }
+
+/*General style*/
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    color:rgba(255,255,255);
+}
+.RS{
+    color:rgba(255,255,255);
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(fond.jpg);
+    background-size: cover;
+}
+.footer{
+    background-color:rgba(186,24,27);
+    color : rgba(255,255,255)
+}
+.contact{
+    background-color: rgba(186,24, 27);
+    color : rgba(255,255,255)
+}
+
+/*Table of opening hours*/
+.Opening{
+    border: 1px solid, rgba(11,9,10);
+    color: rgba(255,255,255);
+    display: grid;
+    grid-template-columns: 200px;
+    justify-content: center;
+    }
+    
+    thead {
+        background-color:rgba(186,24, 27);
+        color:rgba(245,243,244);
+        text-align: center;
+}
+/*Galery for home page*/
+
+.a-img-txt{
+    display:grid; 
+  }
+
+/*Superposition*/
+  .a-img-txt>*{
+    grid-area:1/1/-1/-1; 
+  }
+  .a-img{
+    position:relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%; 
+
+  }
+.a-txt{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:rgba(11,9,10);
+    opacity:0;
+    transition:opacity 3s;
+  }
+  
+.c1{
+      background:rgba(255,255,255);
+  }
+  
+/* Hover */
+.a-txt:hover{
+    opacity:1;
+  }
+.a-img-txt:hover .a-img{
+    filter:invert(0);
+  }
+/*Index php page*/
+  .login-form {
+      width: 340px;
+      margin: 50px auto;
+  }
+  .login-form form {
+      margin-bottom: 15px;
+      background:rgba(0, 0, 0, 0.3);
+      padding: 30px;
+  }
+  .login-form h2 {
+      margin: 0 0 15px;
+  }
+  .form-control, .btn {
+      min-height: 38px;
+      border-radius: 2px;
+  }
+  .form-group{
+    color:rgba(186,24, 27)
+  }
+  .alert alert-danger{
+    color:rgba(186,24, 27)
+  }
+  .btn {        
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
