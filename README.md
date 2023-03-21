@@ -11,7 +11,7 @@ Afin de passer un bon moment sur notre page je vous propose dans un premier temp
 
 Pour continuer cette balade gustative je vous incite également à cliquer sur l'onglet carte afin d'accéder à nos menus et plats proposés.
 
-* * Convaincu?* * 
+**Convaincu?** 
 
 Je vous propose de vous identifier en vos créant un compte puis de réserver une table dans un cadre purement savoyard où dégustation et dépaysement s'offrent à vous.
 
