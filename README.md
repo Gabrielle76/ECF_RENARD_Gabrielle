@@ -3,7 +3,7 @@ ECF Le Quai Antique Restaurant
 
 *Bonjour,* 
 
-Bienvenue sur notre page Le Quai Antique restaurant !
+Bienvenue sur notre page #Le Quai Antique restaurant !#
 
 le lien d'accès est disponible dans le document joint en pdf de mon ECF, il contient les codes de connexion pour accéder à Heroku serveur sur lequel est déployé le site.
 
@@ -13,7 +13,7 @@ Pour continuer cette balade gustative je vous incite également à cliquer sur l
 
 **Convaincu?** 
 
-Je vous propose de vous identifier en vos créant un compte puis de réserver une table dans un cadre purement savoyard où dégustation et dépaysement s'offrent à vous.
+Je vous propose de vous identifier en vous créant un compte puis de réserver une table dans un cadre purement savoyard où dégustation et dépaysement s'offrent à vous.
 
 N'hésitez pas à nous faire des retours sur nos réseaux sociaux.
 
